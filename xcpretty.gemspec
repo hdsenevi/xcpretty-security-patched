@@ -4,21 +4,21 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'xcpretty/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "xcpretty"
+  spec.name          = "xcpretty-security-patched"
   spec.version       = XCPretty::VERSION
-  spec.authors       = ["Marin Usalj", "Delisa Mason"]
-  spec.email         = ["marin2211@gmail.com", "iskanamagus@gmail.com"]
+  spec.authors       = ["Marin Usalj", "Delisa Mason", "Sha Senevirathne"]
+  spec.email         = ["marin2211@gmail.com", "iskanamagus@gmail.com", "shanaka36@gmail.com"]
   spec.required_ruby_version = '>= 2.0.0'
   spec.description =
     %q{
     Xcodebuild formatter designed to be piped with `xcodebuild`,
-    and thus keeping 100% compatibility.
+    and thus keeping 100% compatibility. Now with security fixes patched in.
 
     It has modes for CI, running tests (RSpec dot-style),
     and it can also mine Bitcoins.
     }
   spec.summary       = %q(xcodebuild formatter done right)
-  spec.homepage      = "https://github.com/supermarin/xcpretty"
+  spec.homepage      = "https://github.com/hdsenevi/xcpretty-security-patched"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
