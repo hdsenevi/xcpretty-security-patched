@@ -7,7 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "xcpretty-security-patched"
   spec.version       = XCPretty::VERSION
   spec.authors       = ["Marin Usalj", "Delisa Mason", "Sha Senevirathne"]
-  spec.email         = ["marin2211@gmail.com", "iskanamagus@gmail.com", "shanaka36@gmail.com"]
+  spec.email         = [
+    "marin2211@gmail.com", "iskanamagus@gmail.com", "shanaka36@gmail.com"
+  ]
   spec.required_ruby_version = '>= 2.0.0'
   spec.description =
     %q{
@@ -26,9 +28,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'rouge', '~> 2.0.7'
+  spec.add_dependency 'rouge', '~> 3.28.0'
 
-  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rubocop", "~> 0.34.0"
   spec.add_development_dependency "rspec", "2.99.0"
